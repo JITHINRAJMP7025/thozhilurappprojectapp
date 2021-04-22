@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/ApplyBlankFragment">
+
+    <fragment
+        android:id="@+id/ApplyBlankFragment"
+        android:name="com.example.thozhilurapplastfinal.ApplyBlankFragment"
+        android:label="fragment_apply_blank"
+        tools:layout="@layout/fragment_apply_blank" />
+    <fragment
+        android:id="@+id/ProfileBlankFragment"
+        android:name="com.example.thozhilurapplastfinal.ProfileBlankFragment"
+        android:label="fragment_profile_blank"
+        tools:layout="@layout/fragment_profile_blank" />
+    <fragment
+        android:id="@+id/workBlankFragment"
+        android:name="com.example.thozhilurapplastfinal.workBlankFragment"
+        android:label="fragment_work_blank"
+        tools:layout="@layout/fragment_work_blank" />
+</navigation>
