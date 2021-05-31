@@ -2,10 +2,10 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
         <item android:title="Apply"
-            android:id="@+id/ApplyBlankFragment" />
+            android:id="@+id/userprofile" />
         <item android:title="Work"
-            android:id="@+id/workBlankFragment"/>
+            android:id="@+id/workdetails"/>
         <item android:title="Profile"
-            android:id="@+id/ProfileBlankFragment"/>
+            android:id="@+id/applywork"/>
 
 </menu>

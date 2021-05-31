@@ -4,9 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".userprofile"
-    android:background="#ECECEC" >
-
+    tools:context=".applywork">
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomnavigationview"
         android:layout_width="match_parent"
@@ -17,6 +15,4 @@
         app:layout_constraintStart_toStartOf="parent"
         app:menu="@menu/bottom_menu"
         android:layout_alignParentBottom="true"/>
-
-
 </RelativeLayout>
